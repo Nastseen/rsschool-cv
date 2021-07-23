@@ -19,6 +19,7 @@ freedom and creativity
 * Agile
 * Git
 ### Education: 
-completed HTML and CSS courses on [Codeacademy](https://codeacademy.com), CS50 course
+* completed HTML and CSS courses on [Codeacademy](https://codeacademy.com), 
+* CS50 course
 ### English level: 
 B2 Upper-intermediate
