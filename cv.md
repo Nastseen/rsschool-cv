@@ -2,7 +2,7 @@
 ### Contacts
 +375 29 614 33 29   
 &nbsp; 
-telegram: [@nashtea](https://t.me/nashtea)
+telegram: [@nashtseen](https://t.me/nastseen)
 ### Values: 
 freedom and creativity
 ### Strengths: 
@@ -21,5 +21,17 @@ freedom and creativity
 ### Education: 
 * completed HTML and CSS courses on [Codeacademy](https://codeacademy.com), 
 * CS50 course
+* JS, HTML and CSS courses on [Code-basics.ru](https://code-basics.ru)
+### Code example: 
+``function isPalindrome(x) {
+  if (x==='') {return true};
+  for (let i=0; i<x.length; i++) {
+    let e=x.length;
+    e--;
+    if (x[i].toUpperCase()===x[e].toUpperCase()) {
+      return true;}
+  else {return false}
+  }
+}``
 ### English level: 
 B2 Upper-intermediate
