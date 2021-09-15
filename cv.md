@@ -23,18 +23,17 @@ freedom and creativity
 * CS50 course
 * JS, HTML and CSS courses on [Code-basics.ru](https://code-basics.ru)
 ### Code example: 
-```
+``` js
 function isPalindrome(x) {
   if (x==='') {return true};
-  for (let i=0; i<x.length; i++) {
-    let e=x.length;
-    e--;
-    if (x[i].toUpperCase()===x[e].toUpperCase()) {
+  for (let i=0; i<x.length; i++) { 
+    let e=x.length; 
+    e--; 
+    if (x[i].toUpperCase()===x[e].toUpperCase()) { 
       return true;}
   else {return false}
   }
 }
-
 ```
 
 ### English level: 
