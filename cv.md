@@ -2,7 +2,7 @@
 ### Contacts
 +375 29 614 33 29   
 &nbsp; 
-telegram: [@nashtseen](https://t.me/nastseen)
+telegram: [@nastseen](https://t.me/nastseen)
 ### Values: 
 freedom and creativity
 ### Strengths: 
@@ -23,7 +23,8 @@ freedom and creativity
 * CS50 course
 * JS, HTML and CSS courses on [Code-basics.ru](https://code-basics.ru)
 ### Code example: 
-``function isPalindrome(x) {
+```
+function isPalindrome(x) {
   if (x==='') {return true};
   for (let i=0; i<x.length; i++) {
     let e=x.length;
@@ -32,6 +33,9 @@ freedom and creativity
       return true;}
   else {return false}
   }
-}``
+}
+
+```
+
 ### English level: 
 B2 Upper-intermediate
