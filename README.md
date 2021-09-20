@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://nastseen.github.io/rsschool-cv/cv
+https://nastseen.github.io/rsschool-cv/
