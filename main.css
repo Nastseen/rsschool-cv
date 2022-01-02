@@ -9,6 +9,16 @@ body {
     background-size: 100%;
 }
 
+.grid-item-5 {
+    grid-column: 1/2 ;
+    grid-row: 4/6;
+}
+
+.grid-item-3{
+    grid-column: 1/2 ;
+    grid-row: 2/4;
+}
+
 ul {
     padding: 0px;
 }
