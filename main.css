@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFDF6;
+    background-image: url(img/gr.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul {
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Rany'; /* Гарнитура шрифта */
+    src: url(font/Rany-Light.otf); /* Путь к файлу со шрифтом */
+   }
+
+header > img {
+    border-radius: 100%;
+}
+
+.wrapper {
+    max-width: 1240px;
+    padding: 50px 100px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 30px 0 #F4F4F4;
+}
+
+.wrapper-2 {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-item-5 {
+    grid-column: 1/2 ;
+    grid-row: 4/6;
+}
+
+.grid-item-3{
+    grid-column: 1/2 ;
+    grid-row: 2/4;
+}
+
+.title {
+    display:flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    margin-right: 50px;
+    font-family: 'Rany';
+    font-size: 40px;
+    text-align: right;
+    color: #565656;
+}
+
+.skills-icons {
+    display: flex;
+    list-style-type: none;
+    margin: 0 -5px;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Rany';
+    color: #565656;
+}
+
+li > img {
+    padding-bottom: 10px;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 0 30px;
+}
+
+a {
+    color: #26bebe;
+}
+
+li:not(.skills-icons-li) {
+    list-style-type: none;
+}
+
+li:not(.skills-icons-li):before {
+    content: '▹ ';
+}
+
+.skills-icons-li {
+    flex: 1 2 auto;
+    margin: 0 5px;
+}
